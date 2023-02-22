@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <caption>caption nested table</caption>
+        <table border="1px">
+            <tr>
+                <th>column1</th>
+                <th colspan="2">column 2</th>
+            </tr>
+            <tr>
+                <td colspan="3"><center>colspan column</center></td>
+            </tr>
+            <tr>
+                
+                <td rowspan="3"><center>rowspan cell</center></td>
+                <td colspan="2"><center>cell2</center></td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1px" cell padding="5px">
+                        <tr>
+                            <th>inner column heading1</th>
+                            <th colspan="2">inner column heading 2</th>
+                        </tr>
+                    
+            <tr>
+                <td rowspan="2" style="background-color: grey;">
+                   <center>inner data cell</center> 
+                </td>
+                <td>
+                    <table border="1px" style="background-color: yellow;">
+                    <tr>
+                        <th style="background-color: palevioletred;"><center>inner most <br> column heading1</center></th>
+                        <th style="background-color: palevioletred;"><center>inner most  <br> column heading2</center></th>
+                    </tr>
+                    <tr>
+                        <td style="background-color: purple;">innermostdata <br> cell1</td>
+                        <td style="background-color: brown;">inner most data <br> cell2
+                        </tr>
+                        </td>
+                    </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    </center>  
+</body>
+
+</html>
